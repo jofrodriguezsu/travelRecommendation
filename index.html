@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Bloom</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Travel Bloom</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+        <div class="search-controls">
+            <input type="text" id="searchInput" placeholder="Search by keyword (e.g., beaches, temples, Japan)">
+            <button id="searchBtn">Search</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <h2>Your Next Adventure Awaits</h2>
+            <p>Welcome to Travel Bloom! We are your premier source for personalized travel recommendations across the globe. Whether you're seeking bustling cityscapes, serene beaches, or historic temples, our curated selections based on real-time data will guide you to your perfect destination. </p>
+        </section>
+
+        <section class="recommendations-section">
+            <div id="recommendationsContainer" class="recommendations-grid">
+                </div>
+        </section>
+    </main>
+
+    <script src="travel-recommendation.js"></script>
+</body>
+</html>
